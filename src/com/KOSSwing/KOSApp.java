@@ -44,7 +44,16 @@ public class KOSApp {
         //frame.add(new JCheckBox("Beginner !!!!"));
         //frame.add(new JLabel("Qualification"));
 
-        app.operatorPanel.add(new JLabel("Qualification"));
+        //app.operatorPanel.add(new JLabel("Qualification"));
+        JCheckBox bb = new JCheckBox("Beginner Blake");
+        JCheckBox cll = new JCheckBox("Classic Loadout Louis");
+        JCheckBox opp = new JCheckBox("Onsite Procurement Patrice");
+
+        //Add all operators
+        app.operatorPanel.add(bb);app.operatorPanel.add(cll);app.operatorPanel.add(opp);
+
+
+
 
     }
 }
